@@ -1,0 +1,21 @@
+.header{
+    background-color:aqua;
+
+    &-wrapper{
+        display: flex;
+        justify-content: space-evenly;
+
+        span{
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    &-left{
+        background-color: blue;
+    }
+
+    &-right{
+        background-color: violet;
+    }
+}

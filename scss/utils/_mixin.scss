@@ -1,0 +1,13 @@
+@mixin poppins($fz, $lh, $fw){
+    font-family: 'Poppins', sans-serif;
+    font-size: $fz;
+    line-height: $lh;
+    font-weight: $fw;
+}
+
+@mixin libre($fz, $lh, $fw){
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: $fz;
+    line-height: $lh;
+    font-weight: $fw;
+}
