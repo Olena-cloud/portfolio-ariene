@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -42,6 +43,7 @@ input::placeholder {
 }
 
 body {
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1;
   font-weight: 400;
@@ -57,20 +59,19 @@ main {
   flex: 1;
 }
 
-.header {
-  background-color: aqua;
+.header-fixed {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .header-wrapper {
   display: flex;
-  justify-content: space-evenly;
+  align-items: center;
+  justify-content: space-between;
 }
-.header-wrapper span {
-  width: 200px;
-  height: 200px;
-}
-.header-left {
-  background-color: blue;
-}
-.header-right {
-  background-color: violet;
+.header .menu {
+  display: flex;
+  gap: 40px;
 }/*# sourceMappingURL=main.css.map */

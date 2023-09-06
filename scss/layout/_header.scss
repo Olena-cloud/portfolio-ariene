@@ -1,21 +1,21 @@
 .header{
-    background-color:aqua;
+  
+    &-fixed{
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
 
     &-wrapper{
         display: flex;
-        justify-content: space-evenly;
-
-        span{
-            width: 200px;
-            height: 200px;
-        }
+        align-items: center;
+        justify-content: space-between;
     }
 
-    &-left{
-        background-color: blue;
-    }
-
-    &-right{
-        background-color: violet;
+    .menu{
+        display: flex;
+        gap: 40px;
     }
 }
