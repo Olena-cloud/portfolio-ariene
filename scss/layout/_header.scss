@@ -6,6 +6,7 @@
         top: 0;
         left: 0;
         right: 0;
+        padding: 33px 0;
     }
 
     &-wrapper{
@@ -17,5 +18,20 @@
     .menu{
         display: flex;
         gap: 40px;
+    }
+
+    &-logo {
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .link {
+        text-align: center;
+        font-weight: 500;
+        transition: 0.3s linear;
+
+        &:hover{
+            color: $color-yellow;
+        }
     }
 }
