@@ -61,6 +61,9 @@ main {
   flex: 1;
 }
 
+.header {
+  height: 88px;
+}
 .header-fixed {
   position: fixed;
   z-index: 2;
@@ -89,4 +92,57 @@ main {
 }
 .header .link:hover {
   color: #eebf63;
+}
+
+.hero-subtitle {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+.hero-content {
+  max-width: 475px;
+  width: 100%;
+}
+.hero-title {
+  position: relative;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 62px;
+}
+.hero-title span {
+  color: #EEBF63;
+}
+.hero-title::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -25px;
+  right: 50px;
+  background: url(../img/hero-line.png) no-repeat center;
+  width: 324px;
+  height: 19px;
+}
+.hero-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 56px 0 32px;
+}
+.hero-social {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 44px;
+}
+.hero .social-title {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.hero .social-block {
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
