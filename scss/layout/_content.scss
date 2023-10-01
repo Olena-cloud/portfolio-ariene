@@ -1,0 +1,9 @@
+.content {
+    &-wrapper {
+        border-radius: 45px;
+        background: $bg-black;
+        padding: 63px 65px;
+        display: flex;
+        gap: 60px;
+    }
+}

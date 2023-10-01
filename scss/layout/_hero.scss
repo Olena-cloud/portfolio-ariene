@@ -59,4 +59,40 @@
         gap: 30px;
         align-items: center;
     }
+
+    &-email {
+        display: block;
+        width: 151px;
+        height: 55px;
+        border-radius: 10px;
+        background-image: url(../img/mail.svg);
+        background-repeat:  no-repeat;
+        background-position: left 28px center;
+        padding: 16px 0 15px 60px;
+        color: $color-white;
+        font-weight: 700;
+        line-height: 24px;
+        border: 2px solid $color-yellow-dark;
+    }
+
+    &-download {
+        display: block;
+        width: 184px;
+        height: 55px;
+        border-radius: 10px;
+        border: 2px solid $color-yellow-dark;
+        padding: 16px 0 16px 51px;
+        background-image: url(../img/download.svg);
+        background-repeat:  no-repeat;
+        background-position: left 22px center;
+    }
+
+    &-links {
+        display: flex;
+        gap: 30px;
+
+        a.active{
+            background-color: $color-yellow-dark;
+        }
+    }
 }
