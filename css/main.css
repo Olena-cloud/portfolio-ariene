@@ -49,7 +49,7 @@ body {
   font-weight: 400;
   display: flex;
   flex-direction: column;
-  background: #2f2f2f;
+  background: #1c1c1c;
   color: #F1F1F1;
 }
 
@@ -94,6 +94,15 @@ main {
   color: #eebf63;
 }
 
+.hero {
+  padding: 42px 0 83px;
+}
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
 .hero-subtitle {
   display: block;
   margin-bottom: 16px;
@@ -177,4 +186,37 @@ main {
 }
 .hero-links a.active {
   background-color: #cd921e;
+}
+.hero-img {
+  max-width: 593px;
+  width: 100%;
+  position: relative;
+}
+.hero-img-wrapper {
+  max-width: 553px;
+  width: 100%;
+  margin-left: auto;
+  position: relative;
+  z-index: 2;
+}
+.hero-img::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background: url(../img/hero-points.png) no-repeat center;
+  width: 245px;
+  height: 180px;
+  bottom: 20px;
+  left: 0;
+}
+
+.content {
+  padding: 50px 0;
+}
+.content-wrapper {
+  border-radius: 45px;
+  background: #2f2f2f;
+  padding: 63px 65px;
+  display: flex;
+  gap: 60px;
 }/*# sourceMappingURL=main.css.map */

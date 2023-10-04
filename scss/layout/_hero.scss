@@ -1,4 +1,12 @@
 .hero {
+    padding: 42px 0 83px;
+    
+    &-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        justify-content: center;
+    }
     &-subtitle {
         display: block;
         margin-bottom: 16px;
@@ -93,6 +101,31 @@
 
         a.active{
             background-color: $color-yellow-dark;
+        }
+    }
+
+    &-img{
+        max-width: 593px;
+        width: 100%;
+        position: relative;
+
+        &-wrapper{
+            max-width: 553px;
+            width: 100%;
+            margin-left: auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        &::before{
+            content: "";
+            position: absolute;
+            z-index: 1;
+            background: url(../img/hero-points.png) no-repeat center;
+            width: 245px;
+            height: 180px;
+            bottom: 20px;
+            left: 0;
         }
     }
 }
