@@ -8,4 +8,60 @@
         display: flex;
         gap: 60px;
     }
+
+    &-img {
+        max-width: 350px;
+        width: 100%;
+
+        img {
+            border-radius: 30px;
+        }
+    }
+
+    &-block {
+        width: 570px;
+    }
+
+    &-block-top {
+        display: flex;
+        gap: 49px;
+        margin-bottom: 70px;
+    }
+
+    .list-title {
+        font-size: 72px;
+        font-weight: 600;
+        line-height: 62px;
+
+        span {
+            color: #8ed2a9;
+        }
+    }
+
+    .list-text {
+        color: $color-grey;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+
+    .list-stars {
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 62px;
+    }
+
+    &-title {
+        width: 419px;
+        margin-bottom: 19px;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 62px;
+    }
+
+    &-text {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 45px;
+    }
 }
