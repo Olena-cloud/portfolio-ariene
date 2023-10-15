@@ -55,3 +55,47 @@ html,body{
 main{
     flex: 1;
 }
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+
+    @media (max-width: 1150px) {
+        padding: 0 10px;
+    }
+}
+
+.project-wrapper {
+    display: flex;
+    column-gap: 30px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+}
+
+.project-block {
+    max-width: 540px;
+    width: 100%;
+}
+
+.project-img img {
+    border-radius: 25px;
+}
+
+.project-content {
+    padding: 20px 0 30px;
+}
+
+.project-content-title {
+    display: block;
+    color: $color-primary;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.project-list {
+    display: flex;
+    gap: 50px;
+    font-weight: 500;
+}

@@ -1,0 +1,23 @@
+.recent-project{
+    padding: 50px 0;
+
+    .project-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 56px;
+    }
+
+    .project-link {
+        width: 151px;
+        height: 55px;
+        border-radius: 10px;
+        background: $color-yellow-dark;
+        text-align: center;
+        color: $color-white;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+        padding: 15px 0;
+    }
+}
