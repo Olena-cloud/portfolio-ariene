@@ -98,4 +98,10 @@ main{
     display: flex;
     gap: 50px;
     font-weight: 500;
+
+    li{
+        display: flex;
+        gap: 13px;
+        align-items: center;
+    }
 }
