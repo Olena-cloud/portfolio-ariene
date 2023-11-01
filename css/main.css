@@ -538,4 +538,17 @@ main {
 .advantages .slick-dots button {
   font-size: 0;
   line-height: 0;
+}
+
+.collaboration {
+  padding: 50px 0 94px;
+}
+.collaboration-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 63px 84px;
+  border-radius: 25px;
+  background: #cd921e;
 }/*# sourceMappingURL=main.css.map */
