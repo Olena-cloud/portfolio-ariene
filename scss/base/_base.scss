@@ -112,3 +112,25 @@ main {
     font-weight: 600;
     line-height: 62px;
 }
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+    li{
+        font-size: 0;
+        line-height: 0;
+        transition: $transition;
+
+        &.slick-active{
+            background: $color-yellow;
+        }
+    }
+
+    button{
+        font-size: 0;
+        line-height: 0;
+    }
+}
+

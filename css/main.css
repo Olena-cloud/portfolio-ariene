@@ -248,6 +248,24 @@ main {
   line-height: 62px;
 }
 
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.slick-dots li {
+  font-size: 0;
+  line-height: 0;
+  transition: 0.3s linear;
+}
+.slick-dots li.slick-active {
+  background: #eebf63;
+}
+.slick-dots button {
+  font-size: 0;
+  line-height: 0;
+}
+
 .header {
   height: 88px;
 }
@@ -518,26 +536,13 @@ main {
   line-height: 30px;
 }
 .advantages .slick-dots {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
   margin-top: 40px;
 }
 .advantages .slick-dots li {
-  font-size: 0;
-  line-height: 0;
   width: 15px;
   height: 15px;
   border-radius: 50%;
   border: 1px solid #F1F1F1;
-  transition: 0.3s linear;
-}
-.advantages .slick-dots li.slick-active {
-  background: #eebf63;
-}
-.advantages .slick-dots button {
-  font-size: 0;
-  line-height: 0;
 }
 
 .collaboration {
@@ -565,13 +570,24 @@ main {
   width: 100%;
   text-align: center;
   margin: 0 auto;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 1.25;
 }
 .testimonials-slider {
-  margin-bottom: 52px;
+  margin-top: 52px;
   padding-bottom: 50px;
+}
+.testimonials-slider .slick-dots {
+  margin-top: 50px;
+}
+.testimonials-slider .slick-dots li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #F1F1F1;
+}
+.testimonials-slider .slick-dots li.slick-active {
+  width: 30px;
+  border-radius: 5px;
+  background: #eebf63;
 }
 .testimonials-wrapper {
   max-width: 529px;
@@ -581,6 +597,8 @@ main {
   display: flex;
   flex-direction: column;
   gap: 42px;
+  border-radius: 30px 0px 30px 30px;
+  background: #2f2f2f;
 }
 .testimonials-profile {
   display: flex;
@@ -594,4 +612,7 @@ main {
 }
 .testimonials-text {
   height: 155px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
 }/*# sourceMappingURL=main.css.map */

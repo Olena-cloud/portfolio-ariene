@@ -43,28 +43,13 @@
     }
 
     .slick-dots {
-        display: flex;
-        justify-content: center;
-        gap: 15px;
         margin-top: 40px;
 
         li{
-            font-size: 0;
-            line-height: 0;
             width: 15px;
             height: 15px;
             border-radius: 50%;
             border: 1px solid $color-primary;
-            transition: $transition;
-
-            &.slick-active{
-                background: $color-yellow;
-            }
-        }
-
-        button{
-            font-size: 0;
-            line-height: 0;
         }
     }
 

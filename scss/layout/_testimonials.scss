@@ -1,23 +1,37 @@
-.testimonials{
+.testimonials {
     padding: 50px 0;
     background-color: #386163;
 
-    .inner-title{
+    .inner-title {
         max-width: 609px;
         width: 100%;
         text-align: center;
         margin: 0 auto;
-        font-size: 48px;
-        font-weight: 600;
-        line-height: 1.25;
     }
 
-    &-slider{
-        margin-bottom: 52px;
+    &-slider {
+        margin-top: 52px;
         padding-bottom: 50px;
+
+        .slick-dots{
+            margin-top: 50px;
+
+            li {
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+                background: $color-primary;
+
+                &.slick-active {
+                    width: 30px;
+                    border-radius: 5px;
+                    background: #eebf63;
+                }
+            }
+        } 
     }
 
-    &-wrapper{
+    &-wrapper {
         max-width: 529px;
         width: 100%;
         margin: 0 auto;
@@ -25,6 +39,8 @@
         display: flex;
         flex-direction: column;
         gap: 42px;
+        border-radius: 30px 0px 30px 30px;
+        background: $color-black;
     }
 
     &-profile {
@@ -33,7 +49,7 @@
         align-items: center;
     }
 
-    .profile{
+    .profile {
         display: flex;
         align-items: center;
         gap: 20px;
@@ -41,5 +57,8 @@
 
     &-text {
         height: 155px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: normal;
     }
 }
