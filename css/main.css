@@ -551,4 +551,47 @@ main {
   padding: 63px 84px;
   border-radius: 25px;
   background: #cd921e;
+}
+.collaboration-brands {
+  margin-top: 50px;
+}
+
+.testimonials {
+  padding: 50px 0;
+  background-color: #386163;
+}
+.testimonials .inner-title {
+  max-width: 609px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.testimonials-slider {
+  margin-bottom: 52px;
+  padding-bottom: 50px;
+}
+.testimonials-wrapper {
+  max-width: 529px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 52px 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+}
+.testimonials-profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.testimonials .profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.testimonials-text {
+  height: 155px;
 }/*# sourceMappingURL=main.css.map */

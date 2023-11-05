@@ -1,0 +1,45 @@
+.testimonials{
+    padding: 50px 0;
+    background-color: #386163;
+
+    .inner-title{
+        max-width: 609px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 1.25;
+    }
+
+    &-slider{
+        margin-bottom: 52px;
+        padding-bottom: 50px;
+    }
+
+    &-wrapper{
+        max-width: 529px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 52px 55px;
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+    }
+
+    &-profile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .profile{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    &-text {
+        height: 155px;
+    }
+}
