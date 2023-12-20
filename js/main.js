@@ -44,4 +44,21 @@ $(document).ready(function () {
         arrows: false,
         dots: true,
     })
+
+    // arrow up
+    $(".btn-up").click(function (e) { 
+        e.preventDefault();
+        $("html, body").animate({
+            scrollTop:0,
+        }, 800)
+    });
+
+    $(window).scroll(function () {
+        if($(this).scrollTop() > 250){
+            $(".btn-up").fadeIn(800)
+        } else{
+            $(".btn-up").fadeOut(1000)
+
+        }
+    })
 });
