@@ -266,6 +266,16 @@ main {
   line-height: 0;
 }
 
+.btn-up {
+  position: fixed;
+  bottom: 70px;
+  right: 1%;
+  width: 18px;
+  height: 24px;
+  z-index: 4;
+  background: url(../img/arrow_up.svg) no-repeat center;
+}
+
 .header {
   height: 88px;
 }
@@ -573,7 +583,6 @@ main {
 }
 .testimonials-slider {
   margin-top: 52px;
-  padding-bottom: 50px;
 }
 .testimonials-slider .slick-dots {
   margin-top: 50px;
@@ -615,4 +624,26 @@ main {
   font-size: 24px;
   font-weight: 400;
   line-height: normal;
+}
+
+.footer {
+  padding: 59px 21px 59px 0;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .social-block {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.footer-text {
+  font-size: 36px;
+  line-height: 1.28;
+}
+.footer-content {
+  font-size: 24px;
+  line-height: 1.5;
 }/*# sourceMappingURL=main.css.map */

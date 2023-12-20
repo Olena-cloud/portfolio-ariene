@@ -134,3 +134,12 @@ main {
     }
 }
 
+.btn-up{
+    position: fixed;
+    bottom: 70px;
+    right: 1%;
+    width: 18px;
+    height: 24px;
+    z-index: 4;
+    background: url(../img/arrow_up.svg) no-repeat center;
+}
