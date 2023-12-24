@@ -627,6 +627,59 @@ main {
   line-height: normal;
 }
 
+.about .hero-wrapper {
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+.about .hero-img-wrapper img {
+  border-radius: 30px;
+}
+.about .hero-img-wrapper {
+  max-width: 380px;
+}
+.about .hero-img::before {
+  display: none;
+}
+.about .hero-title {
+  font-weight: 700;
+}
+.about .hero-title::after {
+  display: none;
+}
+.about .hero-subtitle {
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 400;
+}
+.about .hero-text {
+  margin: 0 0 20px;
+}
+.about .hero-links {
+  display: block;
+}
+.about .hero-email {
+  background: transparent;
+  border: none;
+  width: auto;
+  height: auto;
+  padding: 0;
+  font-size: 18px;
+  line-height: normal;
+  font-weight: 600;
+}
+.about .hero-link-email {
+  font-size: 18px;
+  line-height: normal;
+}
+.about .hero-signature {
+  margin: 26px 0 24px;
+  width: 160px;
+}
+.about .applist {
+  display: flex;
+  gap: 30px;
+}
+
 .footer {
   padding: 59px 21px 59px 0;
 }

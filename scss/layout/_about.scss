@@ -1,0 +1,66 @@
+.about{
+    .hero-wrapper {
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+
+    .hero-img-wrapper img {
+        border-radius: 30px;
+    }
+
+    .hero-img-wrapper {
+        max-width: 380px;
+    }
+
+    .hero-img::before{
+        display: none;
+    }
+
+    .hero-title {
+        font-weight: 700;
+
+        &::after{
+            display: none;
+        }
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+        line-height: normal;
+        font-weight: 400;
+    }
+
+    .hero-text {
+        margin: 0 0 20px;
+    }
+
+    .hero-links {
+        display: block;
+    }
+
+    .hero-email {
+        background: transparent;
+        border: none;
+        width: auto;
+        height: auto;
+        padding: 0;
+        font-size: 18px;
+        line-height: normal;
+        font-weight: 600;
+    }
+
+    .hero-link-email {
+        font-size: 18px;
+        line-height: normal;
+    }
+
+    .hero-signature {
+        margin: 26px 0 24px;
+        width: 160px;
+    }
+
+    .applist {
+        display: flex;
+        gap: 30px;
+    }
+}
