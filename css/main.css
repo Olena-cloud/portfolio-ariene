@@ -680,6 +680,39 @@ main {
   gap: 30px;
 }
 
+.article .container {
+  padding: 50px 0 100px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.article p + p {
+  margin-top: 50px;
+}
+.article p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 45px;
+}
+.article-img {
+  margin: 43px 0 50px;
+}
+.article-img img {
+  border-radius: 25px;
+}
+.article-title {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 62px;
+  top: 22px;
+  left: 42px;
+}
+.article-video {
+  margin-top: 50px;
+  position: relative;
+}
 .footer {
   padding: 59px 21px 59px 0;
 }

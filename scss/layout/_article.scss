@@ -1,0 +1,45 @@
+.article {
+    .container {
+        padding: 50px 0 100px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    p+p {
+        margin-top: 50px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 45px;
+    }
+
+    &-img {
+        margin: 43px 0 50px;
+
+        img {
+            border-radius: 25px;
+        }
+    }
+
+    &-title {
+        position: absolute;
+        z-index: 1;
+        color: $color-white;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 62px;
+        top: 22px;
+        left: 42px;
+    }
+
+    &-video {
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .video {
+
+    }
+}
