@@ -62,3 +62,20 @@ $(document).ready(function () {
         }
     })
 });
+
+// video
+let button = document.querySelector(".video-play")
+let video = document.querySelector(".article-video")
+let videoPlay = document.querySelector(".video")
+let videoTitle = document.querySelector(".video-title")
+
+button.addEventListener("click", function(){
+    button.classList.add("active")
+    video.classList.add("active")
+    videoTitle.classList.add("hidden")
+    playClip(videoPlay)
+})
+
+function playClip(media){
+    media.play()
+}

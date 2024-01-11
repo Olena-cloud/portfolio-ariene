@@ -761,7 +761,7 @@ main {
   font-weight: 600;
   transition: 0.3s linear;
 }
-.article .video-title.active {
+.article .video-title.hidden {
   opacity: 0;
   z-index: -1;
 }
