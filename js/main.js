@@ -45,6 +45,15 @@ $(document).ready(function () {
         dots: true,
     })
 
+    $(".team-slider").slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    })
+
     // arrow up
     $(".btn-up").click(function (e) { 
         e.preventDefault();
