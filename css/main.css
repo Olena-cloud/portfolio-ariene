@@ -796,6 +796,71 @@ main {
   text-align: center;
 }
 
+.contact {
+  background: #486074;
+  padding: 54px 0 49px;
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 125px;
+}
+.contact-map {
+  max-width: 445px;
+  width: 100%;
+  height: 567px;
+}
+.contact-map iframe {
+  border-radius: 30px;
+}
+.contact-form {
+  max-width: 445px;
+  width: 100%;
+}
+.contact .inner-title {
+  margin-bottom: 63px;
+}
+.contact .form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 16px 30px;
+  font-size: 18px;
+  line-height: 1.66;
+  color: #e1e1e1;
+  border-radius: 10px;
+  background: #2f2f2f;
+}
+.contact input ::-moz-placeholder, .contact textarea ::-moz-placeholder {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+.contact input ::placeholder,
+.contact textarea ::placeholder {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+.contact textarea {
+  height: 120px;
+  resize: none;
+}
+.contact textarea ::-moz-placeholder {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+.contact textarea ::placeholder {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
 .footer {
   padding: 59px 21px 59px 0;
 }
