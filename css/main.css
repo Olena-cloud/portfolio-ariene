@@ -849,16 +849,32 @@ main {
 .contact textarea {
   height: 120px;
   resize: none;
+  font-family: inherit;
+  color: #F1F1F1;
+  font-size: 18px;
 }
-.contact textarea ::-moz-placeholder {
+.contact textarea::-moz-placeholder {
   font-family: inherit;
   color: inherit;
-  font-size: inherit;
+  font-size: 18px;
 }
-.contact textarea ::placeholder {
+.contact textarea::placeholder {
   font-family: inherit;
   color: inherit;
-  font-size: inherit;
+  font-size: 18px;
+}
+.contact-btn {
+  display: block;
+  width: 180px;
+  height: 55px;
+  border-radius: 10px;
+  background: #cd921e;
+  padding: 16px 0 15px 0;
+  margin-left: auto;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 .footer {

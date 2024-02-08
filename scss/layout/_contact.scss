@@ -53,11 +53,29 @@
     textarea {
         height: 120px;
         resize: none;
+        font-family: inherit;
+        color: $color-primary;
+        font-size: 18px;
 
-        ::placeholder {
+        &::placeholder {
             font-family: inherit;
             color: inherit;
-            font-size: inherit;
+            font-size: 18px;
+    
         }
+    }
+
+    &-btn {
+        display: block;
+        width: 180px;
+        height: 55px;
+        border-radius: 10px;
+        background: $color-yellow-dark;
+        padding: 16px 0 15px 0;
+        margin-left: auto;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        line-height: 24px;
     }
 }
